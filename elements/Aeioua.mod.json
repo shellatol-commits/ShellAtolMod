@@ -1,0 +1,81 @@
+{
+  "_fv": 85,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_shellatol_menu_2",
+          "text": {
+            "fixedValue": "Shellatol Menu 2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 172,
+          "y": 46,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_open_aka_gui",
+          "text": "open aka gui",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Gui1"
+          },
+          "width": 85,
+          "height": 20,
+          "x": 173,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Input Resource",
+          "name": "resource",
+          "width": 120,
+          "height": 20,
+          "x": 156,
+          "y": 94,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_gnomemailsendsvg",
+          "image": "gnome-mail-send.svg.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Aaaaaa"
+          },
+          "x": 165,
+          "y": 108,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

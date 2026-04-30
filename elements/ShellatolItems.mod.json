@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "Shellatol Items",
+    "icon": {
+      "value": "CUSTOM:Shellatolitem2"
+    },
+    "showSearch": true
+  }
+}

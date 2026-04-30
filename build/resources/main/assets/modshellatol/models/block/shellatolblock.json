@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "modshellatol:block/shelaltoled11",
+    "up": "modshellatol:block/shelaltoled11",
+    "north": "modshellatol:block/shelaltoled11",
+    "east": "modshellatol:block/shelaltoled11",
+    "south": "modshellatol:block/shelaltoled11",
+    "west": "modshellatol:block/shelaltoled11",
+    "particle": "modshellatol:block/screenshot_2026-04-27_195311-removebg-preview"
+  },
+  "render_type": "solid"
+}

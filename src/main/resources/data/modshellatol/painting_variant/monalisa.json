@@ -1,0 +1,13 @@
+{
+  "asset_id": "modshellatol:monalisa",
+  "height": 3,
+  "width": 2,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.modshellatol.monalisa.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.modshellatol.monalisa.author"
+  }
+}

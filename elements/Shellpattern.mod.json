@@ -1,0 +1,10 @@
+{
+  "_fv": 85,
+  "_type": "bannerpattern",
+  "definition": {
+    "texture": "sp",
+    "shieldTexture": "sp",
+    "name": "Shellpattern",
+    "requireItem": false
+  }
+}

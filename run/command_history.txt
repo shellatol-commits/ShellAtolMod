@@ -1,0 +1,16 @@
+/setblock ~ ~ ~
+/give @s modshellatol:shellatolitem
+/give @s minecraft:painting
+/sa config true
+/sa gui
+/sa diamond
+/sa playdragondeath
+/sa gui
+/advancement
+/effect clear @s
+/effect give Dev modshellatol:shell_atoled
+/sa aprilfoolsgui
+/sa diamond
+/sa playdragondeath
+/sa aprilfoolsgui
+/sa gui

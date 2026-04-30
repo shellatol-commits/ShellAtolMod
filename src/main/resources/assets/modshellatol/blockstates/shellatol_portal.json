@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "modshellatol:block/shellatol_portal_ew"
+    },
+    "axis=x": {
+      "model": "modshellatol:block/shellatol_portal_ns"
+    }
+  }
+}

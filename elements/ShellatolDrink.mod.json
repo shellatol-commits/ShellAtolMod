@@ -1,0 +1,22 @@
+{
+  "_fv": 85,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Shellatol Drink",
+    "splashName": "Splash Potion of Shellatol Drink",
+    "lingeringName": "Lingering Potion of Shellatol Drink",
+    "arrowName": "Arrow of Shellatol Drink",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:ShellAtoled"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 30,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

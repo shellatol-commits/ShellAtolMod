@@ -1,0 +1,10 @@
+{
+  "_fv": 85,
+  "_type": "command",
+  "definition": {
+    "commandName": "sa",
+    "type": "STANDARD",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">playdragondeath</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Aeiou</field></block></statement><next><block type=\"literal\"><field name=\"name\">gui</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Gui1</field></block></statement><next><block type=\"literal\"><field name=\"name\">diamond</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">ShellatolitemSpecialInformation</field></block></statement><next><block type=\"literal\"><field name=\"name\">aprilfoolsgui</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Guiiiii</field></block></statement></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

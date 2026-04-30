@@ -1,0 +1,118 @@
+{
+  "_fv": 85,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_shellatol_menu",
+          "text": {
+            "fixedValue": "ShellAtol Menu"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 173,
+          "y": 47,
+          "locked": false
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "ido",
+          "text": "I know what I am doing when I installed this mod.",
+          "x": 75,
+          "y": 12,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "costume2_4.png",
+          "use1Xscale": false,
+          "x": -39,
+          "y": 123,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_inventory",
+          "text": {
+            "fixedValue": "Inventory -↓"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 181,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gnome-mail-send.svg.png",
+          "use1Xscale": false,
+          "x": 320,
+          "y": 30,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_place_a_diamond_block_above_your",
+          "text": "Place a diamond block above your head",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ShellatolitemSpecialInformation"
+          },
+          "width": 210,
+          "height": 20,
+          "x": 110,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_play_enderdragon_death_sfx",
+          "text": "Play Enderdragon Death SFX",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Aeiou"
+          },
+          "width": 155,
+          "height": 20,
+          "x": 136,
+          "y": 61,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

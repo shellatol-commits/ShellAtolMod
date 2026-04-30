@@ -1,0 +1,25 @@
+{
+  "_fv": 85,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Curse shellatol",
+    "supportedSlots": "any",
+    "weight": 10,
+    "anvilCost": 1,
+    "maxLevel": 4,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:Shellatolitem"
+      },
+      {
+        "value": "CUSTOM:Shelaltol"
+      }
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "_fv": 85,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Shell Atoled",
+    "icon": "shelaltoled",
+    "color": {
+      "value": -14221057,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "RAIN"
+    },
+    "onAddedSound": {
+      "value": "block.amethyst_block.place"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "equipmentSlot": "any",
+        "attribute": {
+          "value": "ARMOR_TOUGHNESS"
+        },
+        "amount": 999.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "any",
+        "attribute": {
+          "value": "ARMOR"
+        },
+        "amount": 999.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "any",
+        "attribute": {
+          "value": "BLOCK_REACH"
+        },
+        "amount": 999.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "any",
+        "attribute": {
+          "value": "LUCK"
+        },
+        "amount": 999.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "any",
+        "attribute": {
+          "value": "SAFE_FALL_DISTANCE"
+        },
+        "amount": 999.0,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

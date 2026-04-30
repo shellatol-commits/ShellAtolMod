@@ -1,0 +1,415 @@
+{
+  "mod_elements": [
+    {
+      "name": "Monalisa",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monalisa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/modshellatol/painting_variant/monalisa.json"
+        ]
+      }
+    },
+    {
+      "name": "Shellatolitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shellatolitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/modshellatol/items/shellatolitem.json",
+          "src/main/java/net/mcreator/modshellatol/item/ShellatolitemItem.java",
+          "src/main/resources/assets/modshellatol/models/item/shellatolitem.json"
+        ]
+      }
+    },
+    {
+      "name": "ShellatolitemSpecialInformation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shellatolitem_special_information",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/modshellatol/procedures/ShellatolitemSpecialInformationProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Shellatol",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shellatol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modshellatol/world/dimension/ShellatolDimension.java",
+          "src/main/resources/assets/modshellatol/models/block/shellatol_portal_ew.json",
+          "src/main/resources/assets/modshellatol/items/shellatol.json",
+          "src/main/java/net/mcreator/modshellatol/block/ShellatolPortalBlock.java",
+          "src/main/resources/assets/modshellatol/blockstates/shellatol_portal.json",
+          "src/main/resources/assets/modshellatol/models/item/shellatol.json",
+          "src/main/java/net/mcreator/modshellatol/world/teleporter/ShellatolTeleporter.java",
+          "src/main/java/net/mcreator/modshellatol/item/ShellatolItem.java",
+          "src/main/resources/data/modshellatol/dimension/shellatol.json",
+          "src/main/resources/assets/modshellatol/models/block/shellatol_portal_ns.json",
+          "src/main/java/net/mcreator/modshellatol/world/teleporter/ShellatolPortalShape.java",
+          "src/main/resources/data/modshellatol/dimension_type/shellatol.json"
+        ]
+      }
+    },
+    {
+      "name": "Shellpattern",
+      "type": "bannerpattern",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shellpattern",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/modshellatol/banner_pattern/shellpattern.json"
+        ]
+      }
+    },
+    {
+      "name": "Satol",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satol",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/modshellatol/worldgen/configured_feature/satol_tree.json",
+          "src/main/resources/data/modshellatol/worldgen/placed_feature/satol_tree.json",
+          "src/main/resources/data/modshellatol/worldgen/biome/satol.json"
+        ]
+      }
+    },
+    {
+      "name": "Shellatolitem2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shellatolitem_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modshellatol/item/Shellatolitem2Item.java",
+          "src/main/resources/assets/modshellatol/models/item/shellatolitem_2.json",
+          "src/main/resources/assets/modshellatol/items/shellatolitem_2.json"
+        ]
+      }
+    },
+    {
+      "name": "ShellatolItems",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shellatol_items",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Sa",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modshellatol/command/SaCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Aeiou",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeiou",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/modshellatol/procedures/AeiouProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Gui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modshellatol/client/gui/GuiScreen.java",
+          "src/main/java/net/mcreator/modshellatol/network/GuiButtonMessage.java",
+          "src/main/java/net/mcreator/modshellatol/world/inventory/GuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Gui1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/modshellatol/procedures/Gui1Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Shell",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/modshellatol/blockstates/shell_portal.json",
+          "src/main/java/net/mcreator/modshellatol/block/ShellPortalBlock.java",
+          "src/main/java/net/mcreator/modshellatol/world/teleporter/ShellTeleporter.java",
+          "src/main/resources/assets/modshellatol/items/shell.json",
+          "src/main/resources/data/modshellatol/dimension/shell.json",
+          "src/main/java/net/mcreator/modshellatol/world/teleporter/ShellPortalShape.java",
+          "src/main/java/net/mcreator/modshellatol/item/ShellItem.java",
+          "src/main/resources/data/modshellatol/dimension_type/shell.json",
+          "src/main/java/net/mcreator/modshellatol/world/dimension/ShellDimension.java",
+          "src/main/resources/assets/modshellatol/models/block/shell_portal_ew.json",
+          "src/main/resources/assets/modshellatol/models/item/shell.json",
+          "src/main/resources/assets/modshellatol/models/block/shell_portal_ns.json"
+        ]
+      }
+    },
+    {
+      "name": "ShellAtoled",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shell_atoled",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modshellatol/potion/ShellAtoledMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Shelaltol",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shellatolblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/modshellatol/models/item/shellatolblock.json",
+          "src/main/java/net/mcreator/modshellatol/block/ShelaltolBlock.java",
+          "src/main/resources/data/modshellatol/loot_table/blocks/shellatolblock.json",
+          "src/main/resources/assets/modshellatol/models/block/shellatolblock.json",
+          "src/main/resources/assets/modshellatol/blockstates/shellatolblock.json",
+          "src/main/resources/assets/modshellatol/items/shellatolblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Curseshellatol",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curseshellatol",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/modshellatol/enchantment/curseshellatol.json"
+        ]
+      }
+    },
+    {
+      "name": "ShellatolDrink",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shellatol_drink",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Shellatolled",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shellatolled",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/modshellatol/advancement/shellatolled.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.REINFORCED_DEEPSLATE",
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS",
+      "~Blocks.NETHERITE_BLOCK"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:Curseshellatol"
+    ],
+    "ENCHANTMENTS:minecraft:curse": [
+      "~CUSTOM:Curseshellatol"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:Curseshellatol"
+    ],
+    "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:Curseshellatol"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "painting.modshellatol.monalisa.author": "Leonardo da Vinci",
+      "painting.modshellatol.monalisa.title": "Mona Lisa",
+      "item.modshellatol.shellatolitem": "Shellatolitem",
+      "item.modshellatol.shellatol": "Shellatol Portal Igniter",
+      "block.modshellatol.banner.shellpattern.yellow": "Yellow Shellpattern",
+      "block.modshellatol.banner.shellpattern.red": "Red Shellpattern",
+      "block.modshellatol.banner.shellpattern.gray": "Gray Shellpattern",
+      "block.modshellatol.banner.shellpattern.white": "White Shellpattern",
+      "block.modshellatol.banner.shellpattern.black": "Black Shellpattern",
+      "block.modshellatol.banner.shellpattern.cyan": "Cyan Shellpattern",
+      "block.modshellatol.banner.shellpattern.green": "Green Shellpattern",
+      "block.modshellatol.banner.shellpattern.blue": "Blue Shellpattern",
+      "block.modshellatol.banner.shellpattern.light_gray": "Light Gray Shellpattern",
+      "block.modshellatol.banner.shellpattern.purple": "Purple Shellpattern",
+      "block.modshellatol.banner.shellpattern.magenta": "Magenta Shellpattern",
+      "block.modshellatol.banner.shellpattern.lime": "Lime Shellpattern",
+      "block.modshellatol.banner.shellpattern.light_blue": "Light Blue Shellpattern",
+      "block.modshellatol.banner.shellpattern.pink": "Pink Shellpattern",
+      "block.modshellatol.banner.shellpattern.brown": "Brown Shellpattern",
+      "block.modshellatol.banner.shellpattern.orange": "Orange Shellpattern",
+      "biome.modshellatol.satol": "Satol",
+      "item.modshellatol.shellatolitem_2": "Shellatolitem 2",
+      "item_group.modshellatol.shellatol_items": "Shellatol Items",
+      "gui.modshellatol.gui.ido": "I know what I am doing when I installed this mod.",
+      "gui.modshellatol.gui.label_shellatol_menu": "ShellAtol Menu",
+      "gui.modshellatol.gui.label_inventory": "Inventory -↓",
+      "gui.modshellatol.gui.button_place_a_diamond_block_above_your": "Place a diamond block above your head",
+      "gui.modshellatol.gui.button_play_enderdragon_death_sfx": "Play Enderdragon Death SFX",
+      "item.modshellatol.shell": "Shell Portal Igniter",
+      "effect.modshellatol.shell_atoled": "Shell Atoled",
+      "item.modshellatol.shellatolblock": "ShellatolBlock",
+      "enchantment.modshellatol.curseshellatol": "Curse shellatol",
+      "item.minecraft.potion.effect.shellatol_drink": "Potion of Shellatol Drink",
+      "item.minecraft.splash_potion.effect.shellatol_drink": "Splash Potion of Shellatol Drink",
+      "item.minecraft.tipped_arrow.effect.shellatol_drink": "Arrow of Shellatol Drink",
+      "item.minecraft.lingering_potion.effect.shellatol_drink": "Lingering Potion of Shellatol Drink",
+      "advancements.shellatolled.title": "Shellatolled Quest",
+      "advancements.shellatolled.descr": "Enter the Satol biome and place a ShellAtol block"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/data/minecraft/tags/banner_pattern/no_item_required.json",
+      "src/main/java/net/mcreator/modshellatol/init/ModshellatolModBiomes.java",
+      "src/main/java/net/mcreator/modshellatol/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/modshellatol/init/ModshellatolModScreens.java",
+      "src/main/java/net/mcreator/modshellatol/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/modshellatol/init/ModshellatolModMenus.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/modshellatol/init/ModshellatolModMobEffects.java",
+      "src/main/java/net/mcreator/modshellatol/init/ModshellatolModPotions.java",
+      "src/main/java/net/mcreator/modshellatol/init/ModshellatolModBlocks.java",
+      "src/main/java/net/mcreator/modshellatol/init/ModshellatolModItems.java",
+      "src/main/java/net/mcreator/modshellatol/init/ModshellatolModTabs.java",
+      "src/main/resources/modshellatol.mixins.json",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/modshellatol/ModshellatolMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "modshellatol",
+    "modName": "Shellatol\u0027s first mod",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.modshellatol"
+  },
+  "mcreatorVersion": 202600114619
+}
