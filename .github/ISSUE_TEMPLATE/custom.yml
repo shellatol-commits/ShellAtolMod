@@ -1,0 +1,48 @@
+name: Wiki Suggestion
+description: Suggest additions or improvements to the project wiki
+title: "[Wiki]: "
+labels:
+  - wiki suggestion
+  - triage needed
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📘 Wiki Suggestion
+        Thank you for helping improve the documentation. Please provide as much detail as possible.
+
+  - type: input
+    id: page
+    attributes:
+      label: Wiki Page
+      description: Which wiki page does this relate to?
+      placeholder: e.g. Homepage
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+      description: What would you like to add, change, or improve?
+      placeholder: Describe your suggestion clearly
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why is this needed?
+      description: Explain why this suggestion would improve the wiki
+      placeholder: Context, benefits, or problems it solves
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Links, screenshots, or references
+      placeholder: Optional supporting info
+    validations:
+      required: false
